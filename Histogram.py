@@ -15,8 +15,7 @@ screen = pyplot.figure(figsize = (12,8))
 #2)set up a histogram, set number of bins:
 #pyplot.hist(numList, 10)
 #3) set up a histogram, set edges of bins:
-for i in range(10):
-    pyplot.hist(numList, bins = [0,20,40,60,80, 100, 120, 130, 140, 160, 180,200])
+pyplot.hist(numList, bins = [0,20,40,60,80, 100, 120, 130, 140, 160, 180,200])
 
 #set title
 pyplot.title("Professionally professional histogram")
